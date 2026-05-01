@@ -1,7 +1,12 @@
 {
+  "version": 2,
   "functions": {
     "api/audit.js": {
       "maxDuration": 60
     }
-  }
+  },
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" }
+  ],
+  "outputDirectory": "public"
 }
